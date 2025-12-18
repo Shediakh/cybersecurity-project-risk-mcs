@@ -1,0 +1,15 @@
+experiment,features,model,ROC_AUC,F1,Accuracy
+High Cost Overrun,Joint,RF,0.6944444444444444,0.2,0.6666666666666666
+High Cost Overrun,Joint,LogReg,0.6759259259259259,0.5,0.75
+High Cost Overrun,Cost-only,RF,0.6435185185185185,0.18181818181818182,0.625
+High Cost Overrun,Cost-only,LogReg,0.6296296296296297,0.3333333333333333,0.6666666666666666
+High Cost Overrun,Schedule-only,LogReg,0.6296296296296297,0.3333333333333333,0.6666666666666666
+High Cost Overrun,Schedule-only,RF,0.6157407407407407,0.2,0.6666666666666666
+High Cost Overrun,Baseline,Always-majority,,,0.75
+High Schedule Overrun,Schedule-only,RF,0.8055555555555556,0.18181818181818182,0.625
+High Schedule Overrun,Joint,LogReg,0.8055555555555556,0.5,0.75
+High Schedule Overrun,Joint,RF,0.8055555555555556,0.2,0.6666666666666666
+High Schedule Overrun,Schedule-only,LogReg,0.7870370370370371,0.36363636363636365,0.7083333333333334
+High Schedule Overrun,Cost-only,RF,0.7824074074074074,0.18181818181818182,0.625
+High Schedule Overrun,Cost-only,LogReg,0.7685185185185186,0.2,0.6666666666666666
+High Schedule Overrun,Baseline,Always-majority,,,0.75
